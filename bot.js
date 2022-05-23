@@ -12,7 +12,7 @@ const chalk = require('chalk');
 const config = require('./config');
 const { FakeDB, takeMessage } = require("./plugins/sql/fake");
 const {WAConnection, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./PinkyMwol/');
+const {Message, StringSession, Image, Video} = require('./APARNA/');
 const { DataTypes } = require('sequelize');
 const { GreetingsDB, getMessage } = require("./plugins/sql/greetings");
 const got = require('got');
@@ -135,7 +135,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
 
         console.log(
             chalk.green.bold('𝚙𝚒𝚗𝚔𝚢 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 👻'));
-            await conn.sendMessage(conn.user.jid, "ᴘɪɴᴋʏ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+            await conn.sendMessage(conn.user.jid, "ᴀᴩᴀʀɴᴀ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
             await conn.sendMessage(conn.user.jid, "``` WORKING " + config.WORKTYPE + "```" , MessageType.text);
 	    function _0x7f3f(){var _0x533b60=['bold','jid','1129932DXkGwP','ᴠᴇʀɪꜰɪᴇᴅ\x20ᴀ','4JAoUUK','988956wylBiS','814vFlBiK','ᴛʜᴀɴᴋꜱ\x20ꜰᴏʀ','\x20ʙᴇɪɴɢ\x20ᴀ\x20ᴠ','text','ᴄᴛɪᴠᴀᴛᴇᴅ','48DkjtqZ','2224OEIkfl','user','log','308940PPobQR','pinky','1026sBqzXZ','37062XlBwCd','test','118390toQcfC','ɴᴅ\x20ꜱᴘᴇᴄɪᴀʟ','\x20ꜰᴇᴀᴛᴜʀᴇ\x20ᴀ','ᴜꜱᴇʀ\x20ɴᴀᴍᴇ\x20','green','572yVEsVX','name','1015483QBLaiX','1418ekYnat'];_0x7f3f=function(){return _0x533b60;};return _0x7f3f();}var _0x5c9d64=_0x559f;function _0x559f(_0x275d89,_0x5c1a44){var _0x7f3f15=_0x7f3f();return _0x559f=function(_0x559f7e,_0x516164){_0x559f7e=_0x559f7e-0x176;var _0x5485bd=_0x7f3f15[_0x559f7e];return _0x5485bd;},_0x559f(_0x275d89,_0x5c1a44);}(function(_0xace135,_0x57ecb8){var _0x3eba8f=_0x559f,_0x3da748=_0xace135();while(!![]){try{var _0x392392=parseInt(_0x3eba8f(0x18a))/0x1*(-parseInt(_0x3eba8f(0x17f))/0x2)+parseInt(_0x3eba8f(0x190))/0x3*(parseInt(_0x3eba8f(0x18f))/0x4)+parseInt(_0x3eba8f(0x17d))/0x5+parseInt(_0x3eba8f(0x179))/0x6*(-parseInt(_0x3eba8f(0x189))/0x7)+parseInt(_0x3eba8f(0x17a))/0x8*(-parseInt(_0x3eba8f(0x180))/0x9)+-parseInt(_0x3eba8f(0x182))/0xa*(parseInt(_0x3eba8f(0x191))/0xb)+parseInt(_0x3eba8f(0x18d))/0xc*(parseInt(_0x3eba8f(0x187))/0xd);if(_0x392392===_0x57ecb8)break;else _0x3da748['push'](_0x3da748['shift']());}catch(_0x5bf110){_0x3da748['push'](_0x3da748['shift']());}}}(_0x7f3f,0x98bf0));var user_check=conn['user'][_0x5c9d64(0x188)],name=new RegExp(_0x5c9d64(0x17e),'i');name[_0x5c9d64(0x181)](user_check)&&(console[_0x5c9d64(0x17c)](chalk[_0x5c9d64(0x186)][_0x5c9d64(0x18b)](_0x5c9d64(0x185)+_0x5c9d64(0x18e)+_0x5c9d64(0x183)+_0x5c9d64(0x184)+_0x5c9d64(0x178))),await conn['sendMessag'+'e'](conn[_0x5c9d64(0x17b)][_0x5c9d64(0x18c)],_0x5c9d64(0x192)+_0x5c9d64(0x176)+'ᴇʀɪꜰɪᴇᴅ\x20ᴜꜱ'+'ᴇʀ',MessageType[_0x5c9d64(0x177)]));
 
@@ -309,7 +309,7 @@ setInterval(async () => {
                             if (config.NOLOG == 'true') return;
 		            if (error.message.includes('includes')) return;
                             if (config.LANG == 'ES') {
-                                await conn.sendMessage(conn.user.jid, '*🤖  ERROR ANALYSIS [PINKY] *' + 
+                                await conn.sendMessage(conn.user.jid, '*🤖  ERROR ANALYSIS [APARNA] *' + 
                                     '\n*pinky bot ha tenido un error*'+
                                     '\n_Este registro de errores puede contener su número o el número de una contraparte. ¡Por favor, tenga cuidado con eso!_' +
                                     '\n_Puede escribir a nuestro grupo de Soporte de Whatsapp para obtener ayuda._' +
@@ -319,7 +319,7 @@ setInterval(async () => {
                                     , MessageType.text, {detectLinks: false});
 			    }
                             else {
-                                await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                     '\n*pinky Bot an error has occurred!*'+
                                     '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
                                     '\n_Aslo you can join our support group:_  https://chat.whatsapp.com/EWLP9VPgYmgGff6NORWSKk' +
@@ -328,7 +328,7 @@ setInterval(async () => {
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Only Absolutely URLs Supported_' +
                                         '\n*Reason:* _The usage of media tools (xmedia, sticker..) in the LOG number._' +
@@ -337,7 +337,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Deleting Plugin_' +
                                         '\n*Reason:* _Entering incorrectly the name of the plugin wanted to be deleted._' +
@@ -346,7 +346,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Split of Undefined_' +
                                         '\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
@@ -355,7 +355,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _SQL Database Error_' +
                                         '\n*Reason:* _Database corruption._ ' +
@@ -364,7 +364,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Ookla Server Connection_' +
                                         '\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
@@ -373,7 +373,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Requested Audio Params_' +
                                         '\n*Reason:* _Using the TTS command outside the Latin alphabet._' +
@@ -382,7 +382,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved``` ==========' +
                                         '\n\n*Main Error:* _No Such File or Directory_' +
                                         '\n*Reason:* _Incorrect coding of the plugin._' +
@@ -391,7 +391,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Error 404 HTTPS_' +
                                         '\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
@@ -400,7 +400,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -409,7 +409,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -418,7 +418,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Bailyes Action Error_ ' +
                                         '\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
@@ -427,7 +427,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Cannot Decode Text or Media_' +
                                         '\n*Reason:* _Incorrect use of the plug._' +
@@ -436,7 +436,7 @@ setInterval(async () => {
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [PINKY] *' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🤖 ERROR ANALYSIS [APARNA] *' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Word Character Usage_' +
                                         '\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
@@ -446,7 +446,7 @@ setInterval(async () => {
                                 }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '🙇🏻 Sorry, I Couldnt Read This Error!' +
-                                        '\n_You can write to our support group for more help._  https://chat.whatsapp.com/EWLP9VPgYmgGff6NORWSKk '+'\n\n 🔻Reason might be \n'+ error
+                                        '\n_You can write to our support group for more help._  https://chat.whatsapp.com/CDNbORWtY1KCPyrm5qNyIl '+'\n\n 🔻Reason might be \n'+ error
                                         , MessageType.text
                                     );
                                 }    
